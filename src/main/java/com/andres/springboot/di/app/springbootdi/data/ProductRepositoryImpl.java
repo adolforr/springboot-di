@@ -3,14 +3,16 @@ package com.andres.springboot.di.app.springbootdi.data;
 import java.util.Arrays;
 import java.util.List;
 
-import org.springframework.context.annotation.Primary;
+// import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
-import org.springframework.web.context.annotation.RequestScope;
+import org.springframework.stereotype.Service;
+// import org.springframework.web.context.annotation.RequestScope;
 
 import com.andres.springboot.di.app.springbootdi.models.Product;
 
-@Primary
-@RequestScope
+// @Primary
+// @RequestScope
+// @Repository("productList")
 @Repository("productList")
 public class ProductRepositoryImpl  implements ProductRepository{
 
